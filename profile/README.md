@@ -14,13 +14,13 @@ Two open source projects live here. Both read your BetterOff household, and both
 
 | Project | What it is | Start here |
 | --- | --- | --- |
-| [**betteroff.cli**](https://github.com/betteroff-finance/betteroff.cli) | Read accounts, net worth, and spending from the terminal. It is read-only and prints JSON for scripts. | `brew install raintree-technology/tap/betteroff` |
+| [**betteroff.cli**](https://github.com/betteroff-finance/betteroff.cli) | Read accounts, net worth, and spending from the terminal. It is read-only and prints JSON for scripts. | `brew install betteroff-finance/tap/betteroff` |
 | [**betteroff.connectors**](https://github.com/betteroff-finance/betteroff.connectors) | A plugin and MCP connector for AI clients, with 11 skills such as a monthly review, a debt payoff plan, and upcoming bills. | `claude plugin marketplace add betteroff-finance/betteroff.connectors` |
 
 ### CLI
 
 ```sh
-brew install raintree-technology/tap/betteroff
+brew install betteroff-finance/tap/betteroff
 betteroff accounts
 ```
 
